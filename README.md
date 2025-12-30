@@ -1,6 +1,6 @@
 # Be Kind Network - Frontend React
 
-## 📁 Estructura del Proyecto
+## Estructura del Proyecto
 
 Organicé el código siguiendo una arquitectura por features para mantener todo ordenado:
 
@@ -22,7 +22,7 @@ src/
 
 ---
 
-## 🔧 Cómo ejecutar el proyecto
+## Cómo ejecutar el proyecto
 
 ### Lo que necesitas tener instalado
 - Node.js 16 o superior
@@ -58,7 +58,7 @@ Como las APIs están en dominios externos, puede que el navegador bloquee las pe
 
 ---
 
-## 🔐 Credenciales para probar
+## Credenciales para probar
 
 | Campo | Valor |
 |-------|-------|
@@ -67,7 +67,7 @@ Como las APIs están en dominios externos, puede que el navegador bloquee las pe
 
 ---
 
-## 📝 Decisiones que tomé y por qué
+## Decisiones que tomé y por qué
 
 ### Tecnologías elegidas
 

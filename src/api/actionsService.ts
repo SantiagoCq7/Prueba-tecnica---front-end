@@ -34,7 +34,6 @@ export const actionsService = {
     });
 
     // Usar FormData para enviar el archivo
-    // Es obligatorio usar FormData cuando se envían archivos
     const formData = new FormData();
     formData.append('name', action.name);
     formData.append('description', action.description);
@@ -48,10 +47,10 @@ export const actionsService = {
         },
       });
 
-      console.log('✅ Acción creada exitosamente:', response.data);
+      console.log(' Acción creada exitosamente:', response.data);
       return response.data;
     } catch (error: any) {
-      console.error('❌ Error al crear la acción:', error.message);
+      console.error(' Error al crear la acción:', error.message);
       throw error;
     }
   },
